@@ -61,3 +61,35 @@ https://stackoverflow.com/questions/70120201/ctrld-is-not-working-in-vs-code-cop
 
 Главное также сохранять страницу в той же кодировке (UTF-8):
 ![alt text](Resourses/ForMD/pic5.png)
+
+### 1.8 - Открываем сайт с JavaScript
+
+- Live server
+
+![alt text](Resourses/ForMD/pic6.png)
+
+- Подключение JavaScript
+
+```html
+index.html
+<body>
+    <script>
+        alert("Hello!")
+    </script>
+</body>
+```
+
+```js
+main.js
+alert("Hello!")
+```
+
+```html
+<script src="main.js"></script>
+```
+src - Путь до нашего файла.
+
+2-ой вариант лучше не только из-за порядка, но и в некоторых случаях кещируются данные в браузере и меньшая настройка на сеть.
+
+Все данные должны быть отдельно (отдельно CSS, отдельно HTML, отдельно файлы с данными и т.д.).
+
