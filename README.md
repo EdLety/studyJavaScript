@@ -35,3 +35,29 @@ https://stackoverflow.com/questions/70120201/ctrld-is-not-working-in-vs-code-cop
 - Помошник с готовыми сниппетами (Emmet Abbreviation)
 
 ![alt text](Resourses/ForMD/pic3.png)
+
+> ```<!DOCTYPE html>``` - <u>указание типа документа</u>
+
+> ```<html lang="en">``` - <u>главный тег (lang="en" - атрибут языка)</u>
+
+> ```<head>``` - <u>служебный тег (для подключения стилей и т.д.)</u>
+
+> ```    <meta charset="UTF-8">``` - <u>Кодировка страниц</u>
+
+> ```    <meta name="viewport" content="width=device-width, initial-scale=1.0">``` - <u>Сообщает браузеру как работать с нашей страницей в плане масштаба</u>
+
+> ```    <title>Document</title>``` - <u>То что пишется на вкладке страницы</u>
+![alt text](Resourses/ForMD/pic4.png)
+
+> ```</head>```
+
+> ```<body>``` - <u>Все что видно на сайте</u>
+    
+> ```</body>```
+
+> ```</html>```
+
+- Кодировка [2:43 - 17 1.7 урока]
+
+Главное также сохранять страницу в той же кодировке (UTF-8):
+![alt text](Resourses/ForMD/pic5.png)
