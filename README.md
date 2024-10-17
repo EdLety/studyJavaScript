@@ -14,7 +14,7 @@ Intro:
 
 - Ctrl + Shift + V - переключение между представлениями (это чисто для MarkDown).
 
-![alt text](pic1.png)
+![alt text](Resourses/ForMD/pic1.png)
 
 - Ctrl + Shift + L - выделение всех похожих символов и в дальнейшем можно их заменить.
 
@@ -30,8 +30,8 @@ https://github.com/nvm-sh/nvm (под Linux) - скрипт для быстро�
 - Hotkeys:
 https://stackoverflow.com/questions/70120201/ctrld-is-not-working-in-vs-code-copy-similar-code
 
-![alt text](pic2.png)
+![alt text](Resourses/ForMD/pic2.png)
 
 - Помошник с готовыми сниппетами (Emmet Abbreviation)
 
-![alt text](pic3.png)
+![alt text](Resourses/ForMD/pic3.png)
