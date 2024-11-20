@@ -104,9 +104,9 @@ src - Путь до нашего файла.
 ### 1.10 - Инструкции в коде.
 
 - Вкладка Elements - все из чего состоит наш сайт
-![alt text](pic7.png)
+![alt text](Resourses/ForMD/pic7.png)
 - Вкладка Console
-![alt text](pic8.png)
+![alt text](Resourses/ForMD/pic8.png)
 - Вкладка Sources - что что мы подгружали.
 - Вкладка Network - все соединеня при открытии страницы.
 
@@ -156,7 +156,7 @@ console.log(number);
 
 А вот какие у нас ошибки выводит `use strict` при запуске кода:
 
-![alt text](pic9.png)
+![alt text](Resourses/ForMD/pic9.png)
 
 ### 2.5 - Стиль кода
 
