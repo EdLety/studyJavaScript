@@ -27,5 +27,9 @@ const UserName = "John"; // Pascal case */
 number = 5;
 console.log(number); */
 // 2.6
+/* 
+debugger; */
+// 3.2
+/* const data = "1";
+console.log(typeof data); */
 
-debugger;
