@@ -32,4 +32,18 @@ debugger; */
 // 3.2
 /* const data = "1";
 console.log(typeof data); */
-
+// 3.3
+const million1 = 1e6;
+const million2 = 1_000_000; // same num
+console.log(million1);
+// шеснацетирич 0123456789ABC....
+console.log(0xaf74cd);
+// двоичная система
+console.log(0b101010101);
+// восьмиричная система
+console.log(0o257); // до 7 включительно
+// дробное число 
+console.log(5.5);
+// еще есть 2 нуля
+console.log(0);
+console.log(-0); // одинаково воспринимается
