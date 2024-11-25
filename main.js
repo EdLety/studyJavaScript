@@ -33,7 +33,7 @@ debugger; */
 /* const data = "1";
 console.log(typeof data); */
 // 3.3
-const million1 = 1e6;
+/* const million1 = 1e6;
 const million2 = 1_000_000; // same num
 console.log(million1);
 // шеснацетирич 0123456789ABC....
@@ -46,4 +46,33 @@ console.log(0o257); // до 7 включительно
 console.log(5.5);
 // еще есть 2 нуля
 console.log(0);
-console.log(-0); // одинаково воспринимается
+console.log(-0); // одинаково воспринимается */
+// 3.4
+"use strict";
+
+/* console.log(1e1000); // in console: Infinity (бесконечность)
+console.log(50 / 0); // Infinity (бесконечность) (и да, тут можно делить на ноль)
+console.log(50 / -0); // -Infinity (бесконечность) */
+
+/* const num1 = 60 / 0;
+const num2 = 60 / 1;
+console.log(Number.isFinite(num2)); // "Number.isFinite - Это конечное число?" */
+
+/* const num = 50 / "yes";
+console.log(num); // NaN
+console.log(typeof num); // type number
+console.log(Number.isNaN(num)); // true */
+
+// А также можно использовать без Number, но лучше использовать с ним, так как там многое исправлено.
+
+const num = 52;
+console.log(typeof num);
+console.log(typeof num.toString()); // преобразование в строку, а также можно преобразовать:
+console.log(typeof (num + "")); // когда мы плюсуем, то JS смотрит какие типы данных складывается, то он переводит 52 в строку и плюсует, но лучше через ToString().
+// а также можно в различных системах исчисления:
+console.log(num.toString(2)); // в двоичной
+console.log(num.toString(8)); // в восьмиричной 
+console.log(num.toString(16)); // в шестнадцатиричной
+
+// 3.5 Превращение строки в число
+

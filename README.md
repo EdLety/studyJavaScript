@@ -219,3 +219,37 @@ console.log(5.5);
 console.log(0);
 console.log(-0); // одинаково воспринимается
 ```
+
+### 3.4 - Infinity, NaN и превращение числа в строку
+
+- Number.isFinite - Это конечное число?
+
+Код урока со всеми пометками по ходу:
+
+``` js 
+"use strict";
+
+console.log(1e1000); // in console: Infinity (бесконечность)
+console.log(50 / 0); // Infinity (бесконечность) (и да, тут можно делить на ноль)
+console.log(50 / -0); // -Infinity (бесконечность)
+
+const num1 = 60 / 0;
+const num2 = 60 / 1;
+console.log(Number.isFinite(num2)); // "Number.isFinite - Это конечное число?"
+
+const num3 = 50 / "yes";
+console.log(num3); // NaN
+console.log(typeof num3); // type number
+console.log(Number.isNaN(num3)); // true
+
+// А также можно использовать без Number, но лучше использовать с ним, так как там многое исправлено.
+
+const num4 = 52;
+console.log(typeof num4);
+console.log(typeof num4.toString()); // преобразование в строку, а также можно преобразовать:
+console.log(typeof (num4 + "")); // когда мы плюсуем, то JS смотрит какие типы данных складывается, то он переводит 52 в строку и плюсует, но лучше через ToString().
+// а также можно в различных системах исчисления:
+console.log(num4.toString(2)); // в двоичной
+console.log(num4.toString(8)); // в восьмиричной 
+console.log(num4.toString(16)); // в шестнадцатиричной
+```
