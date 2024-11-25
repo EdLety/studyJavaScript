@@ -48,7 +48,7 @@ console.log(5.5);
 console.log(0);
 console.log(-0); // одинаково воспринимается */
 // 3.4
-"use strict";
+//"use strict";
 
 /* console.log(1e1000); // in console: Infinity (бесконечность)
 console.log(50 / 0); // Infinity (бесконечность) (и да, тут можно делить на ноль)
@@ -65,14 +65,30 @@ console.log(Number.isNaN(num)); // true */
 
 // А также можно использовать без Number, но лучше использовать с ним, так как там многое исправлено.
 
-const num = 52;
+/* const num = 52;
 console.log(typeof num);
 console.log(typeof num.toString()); // преобразование в строку, а также можно преобразовать:
 console.log(typeof (num + "")); // когда мы плюсуем, то JS смотрит какие типы данных складывается, то он переводит 52 в строку и плюсует, но лучше через ToString().
 // а также можно в различных системах исчисления:
 console.log(num.toString(2)); // в двоичной
 console.log(num.toString(8)); // в восьмиричной 
-console.log(num.toString(16)); // в шестнадцатиричной
+console.log(num.toString(16)); // в шестнадцатиричной */
 
-// 3.5 Превращение строки в число
+// 3.5
+//"use strict";
 
+/* const num2 = "   52.332nan232   ";
+console.log(num2);
+//console.log(+num2); // + - унарный плюс, он работает только с правой частью
+console.log(Number.parseFloat(num2)); */
+
+/* const str = prompt("Введите целое число:");
+
+console.log(Number.parseInt(str)); */
+
+/* const str = "-892.123124";
+const num = Number.parseInt(str);
+console.log(num); */
+
+/* const num = Number.parseInt("10 или 20", 20);
+console.log(num); */
