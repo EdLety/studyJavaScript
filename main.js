@@ -141,3 +141,13 @@ const max = 6;
 let random;
 random = Math.trunc(Math.random() * (max - min) + min); // 0 до 1 * (6 - 1)
 console.log(random) */
+
+// 3.9
+//"use strict"
+
+/* const str = `
+HI.
+Bye.
+`; */
+
+//console.log('Hi \'Pavel\'');
