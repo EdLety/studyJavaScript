@@ -124,3 +124,20 @@ console.log(num.toFixed(2)); // но тут возвращает строку и
 const quantity = 8;
 
 console.log(Math.trunc((price * quantity) * 100) / 100); */
+
+// 3.8
+//"use strict"
+
+/* console.log(Math.min(2, 5, -4, 1)); // min
+console.log(Math.random()); // случайное число, от 0 до 1
+console.log(Math.trunc(Math.random()* 10)); // случайное число, от 0 до 10 */
+
+// tasks
+// 1 - done
+
+// 2 - done
+/* const min = 1;
+const max = 6;
+let random;
+random = Math.trunc(Math.random() * (max - min) + min); // 0 до 1 * (6 - 1)
+console.log(random) */
