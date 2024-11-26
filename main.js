@@ -92,3 +92,35 @@ console.log(num); */
 
 /* const num = Number.parseInt("10 или 20", 20);
 console.log(num); */
+
+// 3.6
+/* "use strict";
+
+console.log(2 ** 53 - 1); // это пограничное число, это значит что дальше компьютер будет считать неправильно
+console.log(Number.MAX_SAFE_INTEGER); // данное пограничное число. */
+
+// 3.7
+//"use strict";
+
+/* console.log(Math.round(24.7)); // округляет до целой части (как в математике)
+console.log(Math.floor(24.7)); // округляет в меньшую сторону
+console.log(Math.ceil(24.7)); // округляет в большую сторону
+console.log(Math.trunc(24.7)); // отрубает дробную часть */
+
+// как оставить 2 знака после запятой (бред конечно огромный)
+/* const num = 24.3456;
+
+// по этапам
+console.log(num);
+console.log(num * 100);
+console.log(Math.trunc(num * 100));
+console.log(Math.trunc(num * 100) / 100);
+// Итог:
+console.log(Math.trunc(num * 100) / 100);
+//Но есть готовый вариант:
+console.log(num.toFixed(2)); // но тут возвращает строку и округляет как в математике */
+// задачки для полоумных
+/* const price = 6.39;
+const quantity = 8;
+
+console.log(Math.trunc((price * quantity) * 100) / 100); */

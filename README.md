@@ -336,3 +336,34 @@ console.log(Number.parseFloat(num2)) // 23
 const num = Number.parseInt("10 или 20", 20);
 console.log(num);
 ```
+
+### 3.6 Неточность вычислений
+
+### 3.7 Округление чисел
+
+```js
+console.log(Math.round(24.7)); // округляет до целой части (как в математике)
+console.log(Math.floor(24.7)); // округляет в меньшую сторону
+console.log(Math.ceil(24.7)); // округляет в большую сторону
+console.log(Math.trunc(24.7)); // отрубает дробную часть
+```
+
+- как оставить 2 знака после запятой (бред конечно огромный):
+
+```js
+const num = 24.3456;
+
+// по этапам
+console.log(num);
+console.log(num * 100);
+console.log(Math.trunc(num * 100));
+console.log(Math.trunc(num * 100) / 100);
+// Итог:
+console.log(Math.trunc(num * 100) / 100);
+```
+
+- Но есть готовый вариант, хотя с ним нужно быть поаккуратнее:
+
+```js
+console.log(num.toFixed(2)); // но тут возвращает строку и округляет как в математике
+```
