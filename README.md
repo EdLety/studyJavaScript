@@ -427,3 +427,102 @@ Bye.
 `;
 console.log(str);
 ```
+
+### 3.10 Углубление в строки
+
+- Длина строки (str.lenght)
+- Обращение к элементу строке:
+
+```js
+console.log(str[0]);
+console.log(str.at(0)); // одинаковые выражения по сути.
+```
+
+- Обращение к последнему элементу:
+
+```js
+console.log(str[str.lenght - 1]);
+console.log(str.at(-1)); // одинаковые выражения по сути.
+```
+
+`При получении несуществующего элемента (допустим сиволов 10, а мы берем 50 элемент), мы получим undefined.`
+
+- Строки не изменяемые, то есть мы не можем менять элементы в строке (но добавлять мы можем).
+
+### 3.11 BigInt - большие целые числа
+
+Если число больше `Number.MAX_SAFE_INTEGER` и меньше `Number.MIN_SAFE_INTEGER` - то обычный number нам не пойдет.
+
+- n в конце большого числа означает что это BigInt.
+
+```js
+const BigNum = 47823648263423423423n;
+```
+
+- Действия с данным числом мы можем делать только с числами с типом BigInt.
+
+_JS динамически типизированный и слабо типизированный язык, то есть он автоматом переводит тип, но не с BigInt._
+
+- Автомамтом в строку не переводится.
+
+### 3.12 Boolean
+
+Код урока:
+```js
+"use strict";
+
+const greaterThen = 5 < 3;
+console.log(greaterThen);
+
+console.log(5, Boolean(5)); // true
+console.log(0, Boolean(0)); // false
+console.log(null, Boolean(null)); // false
+console.log(undefined, Boolean(undefined)); // false
+console.log(NaN, Boolean(NaN)); // false
+console.log(50n, Boolean(50n)); // true
+console.log(0n, Boolean(0n)); // false
+console.log("False", Boolean("False")); // true
+console.log("", Boolean("")); // false
+```
+
+### 3.13 Symbol
+
+- Используется для создания уникальных значений (идентификаторов возможно).
+
+```js
+const syn1 = Symbol("1");
+```
+Создали символ, с описанием 1. 
+- Так как символы уникальны, то: 
+
+```js
+const syn1 = Symbol("1");
+const syn2 = Symbol("1");
+console.log(syn1 == syn2); // false
+```
+
+- Воссоздать один и тот же символ невозможно.
+- Символы используются в основном с объектами.
+
+### 3.14 null & undefined
+
+
+### 3.15 object
+
+Код урока:
+```js
+"use strict";
+
+const user = {
+    firstName: "Eddy",
+    age: 26,
+    surName: "Nuss"
+};
+
+console.log(user);
+```
+
+### 3.16 Autoboxing
+
+Свойста null и undefined:
+- Методов у них (null и undefined) нет.

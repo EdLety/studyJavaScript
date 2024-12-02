@@ -151,3 +151,65 @@ Bye.
 `; */
 
 //console.log('Hi \'Pavel\'');
+
+// 3.10
+/* "use strict";
+
+const str = "  Hello Guys!  "
+//const num = 25.25;
+//console.log(String(num));
+
+// Methods to String
+console.log(str.toLocaleLowerCase());
+console.log(str.toLocaleUpperCase());
+console.log(str.trim()); // Пробелы сначала и с конца убирает
+console.log(str.repeat(5)); // Повторить строку 5 раз */
+
+// 3.11
+/* "use strict";
+
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MIN_SAFE_INTEGER);
+
+const BigNum = 47823648263423423423n;
+console.log(typeof BigNum) */
+// 3.12
+/* "use strict";
+
+const greaterThen = 5 < 3;
+console.log(greaterThen);
+
+console.log(5, Boolean(5)); // true
+console.log(0, Boolean(0)); // false
+console.log(null, Boolean(null)); // false
+console.log(undefined, Boolean(undefined)); // false
+console.log(NaN, Boolean(NaN)); // false
+console.log(50n, Boolean(50n)); // true
+console.log(0n, Boolean(0n)); // false
+console.log("False", Boolean("False")); // true
+console.log("", Boolean("")); // false */
+// 3.13
+/* "use strict";
+
+const syn1 = Symbol("1");
+const syn2 = Symbol("1");
+console.log(syn1 == syn2); // false
+console.log(syn1);
+console.log(syn2); */
+// 3.14
+//"use strict";
+
+
+/* // 3.15
+"use strict";
+
+const user = {
+    firstName: "Eddy",
+    age: 26,
+    surName: "Nuss"
+};
+
+console.log(user); */
+/* // 3.16
+"use strict"; */
+
