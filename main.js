@@ -213,4 +213,16 @@ console.log(user); */
 /* // 3.16
 "use strict"; */
 
-// 4.1
+// 4.2
+//"use strict";
+
+// console.log(5 + 3);
+// console.log(5 - 3);
+// console.log(5 / 3);
+// console.log(5 * 3);
+// console.log(5 ** 3);
+// console.log(5 % 3);
+// console.log();
+
+/* const num = 18;
+console.log(Math.floor((num % 100) / 10)); // пиздец, нет целочисленного деления (WTF) */
