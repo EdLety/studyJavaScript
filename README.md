@@ -526,3 +526,5 @@ console.log(user);
 
 Свойста null и undefined:
 - Методов у них (null и undefined) нет.
+
+### 4.1 Операторы и операнды
