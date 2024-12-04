@@ -226,3 +226,47 @@ console.log(user); */
 
 /* const num = 18;
 console.log(Math.floor((num % 100) / 10)); // пиздец, нет целочисленного деления (WTF) */
+
+// 4.3
+//"use strict";
+
+/* console.log("fgdf" + "fsdfs");
+console.log(5 + "fsdfs");
+console.log("fsdfs" + 5); // same shit (автоприведение типов) */
+
+/* const mun1 = prompt("Enter number:"); // промт всегда взвращает нам строку.
+// не забывай про разницу между ` и '!!!
+console.log(`Если к числу ${mun1} прибавить число 5, то получим число ${mun1 + 5}`); // 105
+console.log(`Если к числу ${mun1} прибавить число 5, то получим число ${Number(mun1) + 5}`); // 15 */
+// либо можно использовать унарный +:
+// const mun2 = +prompt("Enter number:"); // преобразует в число
+// console.log(`Если к числу ${mun2} прибавить число 5, то получим число ${mun2 + 5}`); // 15
+// console.log(`Если к числу ${mun2} прибавить число 5, то получим число ${Number(mun2) + 5}`); // 15
+
+// но с другими операторами по типу *, / и другими все будет выполняться как с числами (превращает в число).
+// console.log("Hi" * 2); // NaN
+
+/* // 4.4
+"use strict"; */
+// 4.5
+//"use strict";
+
+//num1--; // постдекрементная форма
+//num1++; // постинкрементная форма
+// разница ++num и --num от num++ num--:
+// разница в возвращаемых значениях:
+// let num1 = 5;
+// const prefix = ++num1; // postfix - 6; num2 - 6
+// console.log("Num1", num1);
+// console.log("Prefix", prefix);
+
+// let num2 = 5;
+// const postfix = num2++; // postfix - 5; num2 - 6
+// console.log("Num2", num2);
+// console.log("Postfix", postfix);
+
+// Запятая
+//let a = 5, b = 10;
+
+// 4.6
+"use strict";
